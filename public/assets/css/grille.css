@@ -1,0 +1,19 @@
+.zones {
+    background-color: rebeccapurple;
+    height: 180px;
+    border: 1px solid black;
+    margin: auto;
+}
+
+.row {
+    justify-content: center;
+}
+
+.gridHolder {
+    height: 50vh;
+}
+
+.perso {
+    height: 100px;
+    width: 100px;
+}

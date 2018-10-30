@@ -23,8 +23,13 @@ $(document).keydown(function(e) {
             bonb = document.getElementById(coordPerso).firstChild;
             bonb.remove();
             taille += incre;
-            var audio = new Audio('assets/sons/wreee.mp3');
-            audio.play();
+            var audio1 = new Audio('assets/sons/wreee.mp3');
+            var audio2 = new Audio('assets/sons/ofarm.mp3');
+            var audio3 = new Audio('assets/sons/Pigpissd.mp3');
+            var audio4 = new Audio('assets/sons/squeal.mp3');
+            var audio5 = new Audio('assets/sons/sons_pig.mp3');
+            var table = [audio1, audio2, audio3, audio4, audio5];
+            table[Math.floor(Math.random() * 4)].play();
             compteur++;
 
             if (compteur == 10)
@@ -48,8 +53,13 @@ $(document).keydown(function(e) {
             bonb = document.getElementById(coordPerso).firstChild;
             bonb.remove();
             taille += incre;
-            var audio = new Audio('assets/sons/wreee.mp3');
-            audio.play();
+            var audio1 = new Audio('assets/sons/wreee.mp3');
+            var audio2 = new Audio('assets/sons/ofarm.mp3');
+            var audio3 = new Audio('assets/sons/Pigpissd.mp3');
+            var audio4 = new Audio('assets/sons/squeal.mp3');
+            var audio5 = new Audio('assets/sons/sons_pig.mp3');
+            var table = [audio1, audio2, audio3, audio4, audio5];
+            table[Math.floor(Math.random() * 4)].play();
             compteur++;
 
             if (compteur == 10)
@@ -72,8 +82,13 @@ $(document).keydown(function(e) {
             bonb = document.getElementById(coordPerso).firstChild;
             bonb.remove();
             taille += incre;
-            var audio = new Audio('assets/sons/wreee.mp3');
-            audio.play();
+            var audio1 = new Audio('assets/sons/wreee.mp3');
+            var audio2 = new Audio('assets/sons/ofarm.mp3');
+            var audio3 = new Audio('assets/sons/Pigpissd.mp3');
+            var audio4 = new Audio('assets/sons/squeal.mp3');
+            var audio5 = new Audio('assets/sons/sons_pig.mp3');
+            var table = [audio1, audio2, audio3, audio4, audio5];
+            table[Math.floor(Math.random() * 4)].play();
             compteur++;
 
             if (compteur == 10)
@@ -96,8 +111,13 @@ $(document).keydown(function(e) {
             bonb = document.getElementById(coordPerso).firstChild;
             bonb.remove();
             taille += incre;
-            var audio = new Audio('assets/sons/wreee.mp3');
-            audio.play();
+            var audio1 = new Audio('assets/sons/wreee.mp3');
+            var audio2 = new Audio('assets/sons/ofarm.mp3');
+            var audio3 = new Audio('assets/sons/Pigpissd.mp3');
+            var audio4 = new Audio('assets/sons/squeal.mp3');
+            var audio5 = new Audio('assets/sons/sons_pig.mp3');
+            var table = [audio1, audio2, audio3, audio4, audio5];
+            table[Math.floor(Math.random() * 4)].play();
             compteur++;
 
             if (compteur == 10)

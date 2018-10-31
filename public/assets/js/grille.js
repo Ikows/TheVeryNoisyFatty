@@ -172,7 +172,9 @@ $(document).keydown(function(e) {
         setTimeout(explo3, 400)
         setTimeout(explo4, 600)
         setTimeout(explo5, 800)
-        setTimeout(redir, 4000)
+        go = new Audio('assets/sons/gameover.mp3')
+        go.play();
+        setTimeout(redir, 5000)
 
     }
 
@@ -228,5 +230,5 @@ function redir()
 
 function redirV()
 {
-    window.location="http://localhost:8000/apiProducts.php";
+    window.location="http://localhost:8000/apiproducts.php";
 }

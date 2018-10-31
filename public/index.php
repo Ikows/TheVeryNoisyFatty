@@ -1,4 +1,4 @@
 <?php
 
-require 'map1.php';
+require 'accueil.html';
 ?>

@@ -35,3 +35,15 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+#victory {
+    background-color: #ce2525;
+    color: #000;
+    border-color: black;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

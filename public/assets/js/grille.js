@@ -8,6 +8,7 @@ maxSize = parseInt($('#val2').val());
 
 $(document).ready(function () {
     $('#next').hide();
+    $('#victory').hide();
 })
 
 $(document).keydown(function(e) {
@@ -171,8 +172,14 @@ $(document).keydown(function(e) {
         setTimeout(explo3, 400)
         setTimeout(explo4, 600)
         setTimeout(explo5, 800)
-        //setTimeout(redir, 4000)
+        setTimeout(redir, 4000)
 
+    }
+
+    if (compteur == 15)
+    {
+        $('#victory').show();
+        setTimeout(redirV, 4000);
     }
 });
 
@@ -216,5 +223,10 @@ function explo5() {
 
 function redir()
 {
-    window.location="http://localhost:8000/gameOver.html";
+    window.location="http://localhost:8000/gameover.html";
+}
+
+function redirV()
+{
+    window.location="http://localhost:8000/apiProducts.php";
 }

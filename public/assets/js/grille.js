@@ -181,7 +181,9 @@ $(document).keydown(function(e) {
     if (compteur == 15)
     {
         $('#victory').show();
-        setTimeout(redirV, 4000);
+        rire = new Audio('assets/sons/rire.wav')
+        setTimeout(rireFin, 1500)
+        setTimeout(redirV, 6500);
     }
 });
 
@@ -231,4 +233,8 @@ function redir()
 function redirV()
 {
     window.location="http://localhost:8000/apiproducts.php";
+}
+
+function rireFin() {
+    rire.play();
 }

@@ -66,7 +66,7 @@
         <div class="col zones" id="16"></div>
     </div>
     <div class="row">
-        <div class="col zones" id="0"><img class="perso" id="perso" src="assets/images/moche2.png" alt=""></div>
+        <div class="col zones" id="0"><img class="perso" id="perso" src="assets/images/citrouilleMoche2.png" alt=""></div>
         <div class="col zones" id="1"></div>
         <div class="col zones" id="2"></div>
         <div class="col zones" id="3"></div>

@@ -22,29 +22,43 @@
 
 <body>
 
-<div class="row" id="rules">
-    <div class="col>">
-        <h3>Game Rules</h3>
+<?php
+
+require '../config/db.php';
+
+$pdo = new PDO(DSN, USER, PASS);
+$query = "SELECT * FROM products";
+$res = $pdo->query($query);
+$resAll = $res->fetchAll();
+
+?>
+
+    <div class="row">
+        <div class="col-12">
+            <p class="congrats">Congratulations, here's what you ate! </p>
+        </div>
+<?php
+foreach ($resAll as $card)
+{?>
+        <div class="col-5 offset-1">
+            <div class="card" style="width:400px">
+                <img class="card-img-top center-block" id="image" src="<?php echo $card['image'];?>" alt="Card image">
+                <div class="card-body">
+                    <h3 class="col-12 card-name" id="card"><?php echo $card['name'];?></h3>
+                    <h2 class="col-12 card-brand" id="card"><?php echo $card['brand'];?></h2>
+                    <a href="<?php echo $card['website'];?>" class="col-12 btn btn-danger">See more</a>
+                </div>
+            </div>
+        </div>
+<?php }
+?>
     </div>
-    <div class="col">
-        <p>Your mission, should you chose to accept it, will be to eat as many candy as possible. To move, use the directional arrows of your keyboard. The top arrow will allow you to go up ('duh), the bottom one to go down, the right one to go right and guess what? The left arrow will allow you to go... LEFT!</p>
-            <ul><strong>Danger zone:</strong>
-                <li>Everytime you eat a candy, you will get fatter. If you get too big, you will explode!</li>
-                <li>Be aware of the vegetables, they are vicious! If you eat one, you will lose weight but you will have only 10 seconds to eat a candy before dying in terrible pain.</li>
-                <li>The level is over when all the sweets are eaten.</li>
-            </ul>
-    </div>
-    <div class="col-12">
-        <h5>Good Luck!</h5>
-    </div>
-    <div class="col-6 container-fluid text-center" id="startButton">
-        <a href="map1.php" role="button" class="btn-lg btn-danger">START</a>
-    </div>
-    <div class="col-6 container-fluid text-center" id="startButton">
-        <a href="coward.html" role="button" class="btn-lg btn-danger">RUN AWAY</a>
-    </div>
-    <img class="container-fluid" src="assets/images/fog.png" alt="fog">
-</div>
+        <div class="row">
+            <div class="col-6 container-fluid text-center" id="startButton">
+                <a href="accueil.html" role="button" class="btn-lg btn-danger">HOME</a>
+            </div>
+        </div>
+        <img class="container-fluid" src="assets/images/fog.png" alt="fog">
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->

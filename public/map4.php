@@ -27,19 +27,20 @@
 </head>
 <body>
 <input type="hidden" id="val1" value="20">
+<input type="hidden" id="val2" value="150">
 
 <div class="container-fluid gridHolder">
     <div class="row" id="toto">
         <div class="col zones" id="40"></div>
         <div class="col zones" id="41"></div>
-        <div class="col zones" id="42"><img class="bonbons" id="b42" src="assets/images/chou.png" alt=""></div>
+        <div class="col zones" id="42"><img class="bonbons legumes" id="b42" src="assets/images/chou.png" alt=""></div>
         <div class="col zones" id="43"></div>
         <div class="col zones" id="44"></div>
         <div class="col zones" id="45"><img class="bonbons" id="b45" src="assets/images/tagada.png" alt=""></div>
         <div class="col zones" id="46"></div>
     </div>
     <div class="row">
-        <div class="col zones" id="30"><img class="bonbons" id="b30" src="assets/images/brocoli.png" alt=""></div>
+        <div class="col zones" id="30"><img class="bonbons legumes" id="b30" src="assets/images/brocoli.png" alt=""></div>
         <div class="col zones" id="31"><img class="bonbons" id="b31" src="assets/images/bonbonzizi.png" alt=""></div>
         <div class="col zones" id="32"></div>
         <div class="col zones" id="33"><img class="bonbons" id="b33" src="assets/images/skittles.png" alt=""></div>
@@ -51,9 +52,9 @@
         <div class="col zones" id="20"></div>
         <div class="col zones" id="21"><img class="bonbons" id="b21" src="assets/images/dragibus.png" alt=""></div>
         <div class="col zones" id="22"></div>
-        <div class="col zones" id="23"><img class="bonbons" id="b23" src="assets/images/courgette.png" alt=""></div>
+        <div class="col zones" id="23"><img class="bonbons legumes" id="b23" src="assets/images/courgette.png" alt=""></div>
         <div class="col zones" id="24"></div>
-        <div class="col zones" id="25"><img class="bonbons" id="b25" src="assets/images/brocoli.png" alt=""></div>
+        <div class="col zones" id="25"><img class="bonbons legumes" id="b25" src="assets/images/brocoli.png" alt=""></div>
         <div class="col zones" id="26"></div>
     </div>
     <div class="row">
@@ -63,7 +64,7 @@
         <div class="col zones" id="13"></div>
         <div class="col zones" id="14"></div>
         <div class="col zones" id="15"><img class="bonbons" id="b15" src="assets/images/schtroumpf.png" alt=""></div>
-        <div class="col zones" id="16"><img class="bonbons" id="b16" src="assets/images/chou.png" alt=""></div>
+        <div class="col zones" id="16"><img class="bonbons legumes" id="b16" src="assets/images/chou.png" alt=""></div>
     </div>
     <div class="row">
         <div class="col zones" id="0"><img class="perso" id="perso" src="assets/images/citrouilleMoche2.png" alt=""></div>

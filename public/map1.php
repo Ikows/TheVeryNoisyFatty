@@ -26,7 +26,9 @@
     <title>The Very Noisy Fatty</title>
 </head>
 <body>
+<div class="gameOver"><p>Game Over !</p></div>
 <input type="hidden" id="val1" value="10">
+<input type="hidden" id="val2" value="120">
 
 <div class="container-fluid gridHolder">
     <div class="row" id="toto">
@@ -35,7 +37,7 @@
         <div class="col zones" id="42"><img class="bonbons" id="b42" src="assets/images/tagada.png" alt=""></div>
         <div class="col zones" id="43"></div>
         <div class="col zones" id="44"></div>
-        <div class="col zones" id="45"><img class="bonbons legumes" id="b34" src="assets/images/citrouille.jpg" alt=""></div>
+        <div class="col zones" id="45"><img class="bonbons legumes" id="b34" src="assets/images/citrouille.png" alt=""></div>
         <div class="col zones" id="46"></div>
     </div>
     <div class="row">
@@ -49,7 +51,7 @@
     </div>
     <div class="row">
         <div class="col zones" id="20"></div>
-        <div class="col zones" id="21"><img class="bonbons" id="b21" src="assets/images/grosseboite.png" alt=""></div>
+        <div class="col zones" id="21"><img class="bonbons" id="b21" src="assets/images/tagada.png" alt=""></div>
         <div class="col zones" id="22"></div>
         <div class="col zones" id="23"><img class="bonbons" id="b34" src="assets/images/maomam.png" alt=""></div>
         <div class="col zones" id="24"><img class="bonbons" id="b34" src="assets/images/schokobon.png" alt=""></div>
